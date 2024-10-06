@@ -35,7 +35,7 @@ class frag2 : Fragment() {
         var view: View = inflater.inflate(R.layout.fragment_second, container, false)
 
 
-        viewModel.data.value?.setData("Nothing happened yet")
+        viewModel.data.value?.setData("Wait...")
 
         viewModel.data.value?.getData()?.observe(viewLifecycleOwner) { data ->
             var text: TextView = view.findViewById(R.id.TextSecondPage)
