@@ -50,7 +50,7 @@ class frag2 : Fragment() {
 
         button.setOnClickListener {
             videoView.start();
-            viewModel.data.value?.setData("Acts commited");
+            viewModel.data.value?.setData("Saved info");
             mainViewModel.data.setData(true);
 
             var valuha = viewModel.data.value?.getData()?.value
