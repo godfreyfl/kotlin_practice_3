@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">KotlinApp2.3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cat_fact">Кошки плохо различают мелкие детали, но довольно хорошо видят в темноте – им вполне хватает нескольких сотых от той освещенности, когда человеческий глаз уже перестает что-то различать во тьме.</string>
+</resources>
